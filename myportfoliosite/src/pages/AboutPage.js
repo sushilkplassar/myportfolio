@@ -1,7 +1,21 @@
 import React from "react";
+import Hero from "../components/Hero";
+import Content from "../components/Content";
 
-function AboutPage() {
-  return <p>Hello from AboutPage</p>;
+function AboutPage(props) {
+  return (
+    <div>
+      <Hero title={props.title} />
+      <Content>
+        <p>This page holds details about me</p>
+        <p>This page holds details about me</p>
+        <p>This page holds details about me</p>
+        <p>This page holds details about me</p>
+        <p>This page holds details about me</p>
+        <p>This page holds details about me</p>
+      </Content>
+    </div>
+  );
 }
 
 export default AboutPage;
