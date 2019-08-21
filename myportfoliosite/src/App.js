@@ -37,7 +37,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <NavBar className="border-bottom" bg="transparent" expand="lg">
+          <NavBar className="border-bottom" bg="transparent" expand="sm">
             <NavBar.Brand>Sushil Plassar</NavBar.Brand>
             <NavBar.Toggle className="border=0" aria-controls="navbar-toggle" />
             <NavBar.Collapse id="navbar-toggle">
